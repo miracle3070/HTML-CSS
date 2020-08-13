@@ -1,0 +1,60 @@
+html{
+    font-size:100%;
+    font-family:Arial, sans-serif;
+    color:#555;
+
+}
+
+body {
+    background-color:pink;
+}
+
+h1,h2{
+    text-decoration: underline;
+}
+
+h1{
+    font:italic bold 2em;
+    text-decoration: underline;
+    letter-spacing: 0.2em;
+    color:white;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+#box-1{
+    background-color: teal;
+    color:rgb(248, 178, 178);
+    border-color: tomato;
+    border: solid 6px;
+    padding: 1em;
+
+}
+
+#box-2{
+    text-align: center;
+    margin-top: 3rem;
+    border: dotted 8px rgb(107, 4, 107);
+    background-color: rosybrown;
+    border-radius: 15%;
+    color: seashell;
+}
+
+#circle{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50px;
+    box-shadow: 6px 4px 5px #666;
+}
+
+#circle:hover{
+    background-color:teal;
+    width: 20px;
+}
+
+#text_2:link{
+    color: violet;
+}

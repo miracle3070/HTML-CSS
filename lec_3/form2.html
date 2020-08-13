@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>좋아하는 프로그래밍 언어 조사</title>
+</head>
+<body>
+    <h1>조사 전에 당신의 정보를 입력해 주세요.</h1>
+    <br>
+    <form action="thanks.html" method="GET">
+        <u1>
+            <li>Search : <input type="search" name="search-field"></li>
+            <br>
+            <li>Password : <input type="password" name="pass-field"></li>
+            <li>Email : <input type="email" name="email-field"></li>
+            <li>Telephone : <input type="tel" name="tel-field" pattern="[0-1]{3}-[0-9]{4}-[0-9]{4}" placeholder="010-****-****
+                "></li>
+            <li>URL : <input type="url" name="url-field"></li>
+        </u1>
+        <br>
+       
+
+        <ul>
+            <h2>당신이 최고로 좋아하는 언어를 선택해주세요.</h2>
+            <li><input type="radio" name="lang" value="C 언어">C 언어</li>
+            <li><input type="radio" name="lang" value="C++">C++</li>
+            <li><input type="radio" name="lang" value="java">java</li>
+        </ul> 
+        <ul>
+            <h2>당신이 관심있는 IT 기술을 모두 선택해주세요.</h2>
+            <li><input type="checkbox" name="tech" value="프로그래밍">프로그래밍</li>
+            <li><input type="checkbox" name="tech" value="리버스 엔지니어링">리버스 엔지니어링</li>
+            <li><input type="checkbox" name="tech" value="시스템 해킹">시스템 해킹</li>
+        </ul>
+        <br>
+        <ul>
+            <h2>모든 언어 중 가장 좋아하는 프로그래밍 언어는?</h2>
+            <li>
+                <select name="all_lang" size="5" multiple>
+                <option>Python</option>
+                <option>Go</option>
+                <option>C#</option>
+                <option value="java">C++</option>   
+                </select>
+            </li>
+        </ul>
+        <li>가장 좋아하는 브랜드는?</li>
+        <ul>
+            <select name="brand" size="3" multiple>
+                <optgroup label="휴대폰">
+                    <option>갤럭시</option>
+                    <option>아이폰</option>
+                </optgroup>
+                <optgroup label="운영체제">
+                    <option>윈도우</option>
+                    <option>맥</option>
+                    <option>레드햇 리눅스</option>
+                </optgroup>
+            </select>
+        </ul>
+        
+        <input type="submit" value="제출 ㄱㄱ">
+        <input type="reset" value="모든걸 초기화..">
+    </form>
+</body>
+</html>
